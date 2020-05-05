@@ -29,6 +29,7 @@ const appendPageLinks = (list) => {
   const totalPages = studentList.length / pageLimit;
   const div = document.createElement('div');
   const page = document.querySelector('.page');
+  console.log(page)
   const ul = document.createElement('ul');
     //gives div the class name pagination
     div.className = 'pagination';
